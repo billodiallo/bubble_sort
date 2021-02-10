@@ -28,7 +28,6 @@ def bubble_sort_by(array)
       end
     end
   end
-  puts array
 end
 #  puts bubble_sort_by([6, 3, 88, 4, 32, 5])
 bubble_sort_by([-4, 19, 1, 66, -77, 22, 3, 9, 11, 63]) { |first, second| first - second }
