@@ -20,10 +20,10 @@ puts bubble_sort([6, 3, 88, 4, 32, 5, 10, 1, 55, 34])
 def bubble_sort_by(array)
   attempt2 = true
   while attempt2 == true
-     attempt2 = false
+   attempt2 = false
    for i in 0...(array.length - 1)
-       if yield(array[i], array[i + 1]).positive?
-          array[i], array[i + 1] = array[i + 1], array[i]
+    if yield(array[i], array[i + 1]).positive?
+         array[i], array[i + 1] = array[i + 1], array[i]
            attempt2 = true; end; end; end
   puts array
 end
