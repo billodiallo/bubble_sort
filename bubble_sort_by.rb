@@ -1,18 +1,23 @@
-def bubble_sort_by(array)
-  loop do
-    attempt2 = false
+# START SORT BY
 
-    (array.size - 1).times do |index|
-      if yield(array[index], array[index + 1])
-        array[index], array[index + 1] = array[index + 1], array[index]
-        attempt2 = true
+def bubble_sort_by(arr)
+  attempt = true
+  while attempt
+    attempt = false
+    (arr.length - 1).times do |x|
+      attempt2 = yield arr[x], arr[x + 1]
+      if attempt2.positive?
+        arr[x], arr[x + 1] = arr[x + 1], arr[x]
+        attempt = true
       end
     end
-
-    break unless attempt2
   end
-  array
+  arr
 end
-print bubble_sort_by([6, 4, 32, 5, 10, 1, 34, 8]) { |first, second| first > second }
 
+unsorted = %w[hello hi hey]
+
+p bubble_sort_by(unsorted) { |left, right|
+  left.length <=> right.length
+}
 # END BUBBLE_SORT_BY
