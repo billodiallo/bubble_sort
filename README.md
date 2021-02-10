@@ -17,7 +17,7 @@
 
 ### Built With
 
-* [RUBY](https://github.com/billodiallo/bubble_sort/blob/main/test-rub.rb)
+* [RUBY](https://github.com/billodiallo/bubble_sort/tree/feature-b)
 
 ## Contributing
 
@@ -47,7 +47,7 @@ Contributions are what make the open source community such an amazing place to b
 - GitHub:[@karvel-code](https://github.com/karvel-code)
 - Linkedin:[@elvis-githinji-9a5032164](https://www.linkedin.com/in/elvis-githinji-9a5032164/)
 
-Project Link: [Bubble Sort Ruby]()
+Project Link: [Bubble Sort Ruby](https://github.com/billodiallo/bubble_sort/tree/feature-b)
 
 
 <!-- ACKNOWLEDGEMENTS -->
