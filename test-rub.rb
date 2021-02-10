@@ -13,28 +13,7 @@ def bubble_sort(arr)
   arr
 end
 
-#puts bubble_sort([6, 3, 88, 4, 32, 5])
-#   bubble_sort_by([-3, 22, 1, 99, -45, 18, 4, 2, 8, 53]) { |first, second| first - second }
-
-
-
-def bubble_sort_by(array)
-
-  attempt2 = true
-
-  while attempt2 == true 
-     attempt2 = false
-     for i in 0...(array.length - 1)
-        if yield(array[i], array[i+1]) > 0 
-           array[i], array[i+1] = array[i+1], array[i]
-           attempt2 = true; end; end; end
-
-  puts array
-end
-
-# Testing bubble_sort
-#  puts bubble_sort_by([6, 3, 88, 4, 32, 5])
-bubble_sort_by([-4, 19, 1, 66, -77, 22, 3, 9, 11, 63]) { |first, second| first - second }
+puts bubble_sort([6, 3, 88, 4, 32, 5])
 
 
 
