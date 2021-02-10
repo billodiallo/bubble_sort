@@ -8,7 +8,7 @@
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
-<!-- ABOUT THE PROJECT -->
+<!-- ABOUT THE PROJECT   -->
 ## About The Project
 
  In this project we used 2  methods with Ruby. 
