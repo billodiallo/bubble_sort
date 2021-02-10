@@ -42,9 +42,12 @@ Contributions are what make the open source community such an amazing place to b
 - Linkedin:[@mabillodiallo](https://www.linkedin.com/in/mabillodiallo/)
 
 
+👤 **Elvis Kariithi Githinji**
+
+- GitHub:[@karvel-code](https://github.com/karvel-code)
+- Linkedin:[@elvis-githinji-9a5032164](https://www.linkedin.com/in/elvis-githinji-9a5032164/)
 
 Project Link: [Bubble Sort Ruby]()
-
 
 
 <!-- ACKNOWLEDGEMENTS -->
