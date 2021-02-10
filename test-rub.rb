@@ -13,7 +13,8 @@ def bubble_sort(arr)
   arr
 end
 
-puts bubble_sort([6, 3, 88, 4, 32, 5])
+puts bubble_sort([6, 3, 88, 4, 32, 5, 10, 1, 55, 34])
+
 
 # BUBBLE SORT BY START
 
