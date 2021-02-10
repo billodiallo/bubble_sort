@@ -41,7 +41,7 @@ Contributions are what make the open source community such an amazing place to b
 - Twitter: [@BilloDi83547008](https://twitter.com/BilloDi83547008)
 - Linkedin:[@mabillodiallo](https://www.linkedin.com/in/mabillodiallo/)
 
-Guadalupe Rangel- kanemekanik@gmail.com
+
 
 Project Link: [Bubble Sort Ruby]()
 
